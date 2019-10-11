@@ -15,5 +15,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  z-Index: 1;
+  position: absolute;
 }
 
+.Player {
+  z-Index: 1000;
+  position: absolute;
+}
