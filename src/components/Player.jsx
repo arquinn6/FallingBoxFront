@@ -14,8 +14,8 @@ class Player extends Component{
 				counter : 0, 
 			},
 			position : {
-				leftMargin : 2.5,
-				topMargin : 90,
+				leftMargin : 25,
+				topMargin : 75,
 			}
 		}
 	}
@@ -47,10 +47,11 @@ class Player extends Component{
 			case ('w'):
 				copy.upKey.counter += 1
 				if (copy.rightKey.counter > 0) {
-					console.log("Jump Right");
-					this.jumpRight();
+					this.jumpRight()
 				}
-				if (copy.leftKey.counter > 0) {console.log("Jump Left");}
+				if (copy.leftKey.counter > 0) {
+					this.jumpLeft()
+				}
 				copy.position.topMargin -= 1
 				el[0].style.top = copy.position.topMargin*1+'%'
 				break
@@ -82,6 +83,12 @@ class Player extends Component{
 	}
 	
 	jumpRight = () => {
+		console.log("Jump Right")
+		
+	}
+	
+	jumpLeft = () => {
+		console.log("Jump Left")
 		
 	}
 	
