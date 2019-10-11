@@ -5,8 +5,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="Game">
+      <header className="Game-Header">
         <img src={board} className="Game-Board" alt="Upsidedown_Smiling_Face" />
         <p>
           Dis da game
