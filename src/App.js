@@ -12,7 +12,7 @@ function App() {
 			<img src={board} className="Game-Board" alt="Upsidedown_Smiling_Face" /> 
 			
 		</div>
-		<div className="Player" style={{left:'50%', bottom:'10%'}}>
+		<div className="Player" style={{left:'50%', top:'75%'}}>
 			<img src={player} className="PlayerObject" alt="player"/>
 		</div>
 		< Player />

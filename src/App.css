@@ -9,6 +9,7 @@
 .Game {
   background-color: orange;
   min-height: 100vh;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +17,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
   z-Index: 1;
-  position: absolute;
+  position: relative;
+}
+
+.Game-Board {
+	position: absolute;
+	height:100%;
+	width:100%;
 }
 
 .Player {
