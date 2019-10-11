@@ -1,0 +1,4 @@
+.Player {
+  z-Index: 1000;
+  position: absolute;
+}
