@@ -15,7 +15,7 @@ function App() {
 		<div className="Player" style={{left:'50%', bottom:'10%'}}>
 			<img src={player} className="PlayerObject" alt="player"/>
 		</div>
-		
+		< Player />
 		
 	</Fragment>
   );
