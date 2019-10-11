@@ -6,12 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="Game">
-      <header className="Game-Header">
-        <img src={board} className="Game-Board" alt="Upsidedown_Smiling_Face" />
-        <p>
-          Dis da game
-        </p>
-      </header>
+        <img src={board} className="Game-Board" alt="Upsidedown_Smiling_Face" />        
     </div>
   );
 }
